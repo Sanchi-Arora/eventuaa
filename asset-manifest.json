@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/eventuaa-cf/static/css/main.27e19f2f.chunk.css",
+    "main.js": "/eventuaa-cf/static/js/main.2f48ff09.chunk.js",
+    "main.js.map": "/eventuaa-cf/static/js/main.2f48ff09.chunk.js.map",
+    "runtime-main.js": "/eventuaa-cf/static/js/runtime-main.a58cc256.js",
+    "runtime-main.js.map": "/eventuaa-cf/static/js/runtime-main.a58cc256.js.map",
+    "static/js/2.1a675e98.chunk.js": "/eventuaa-cf/static/js/2.1a675e98.chunk.js",
+    "static/js/2.1a675e98.chunk.js.map": "/eventuaa-cf/static/js/2.1a675e98.chunk.js.map",
+    "index.html": "/eventuaa-cf/index.html",
+    "static/css/main.27e19f2f.chunk.css.map": "/eventuaa-cf/static/css/main.27e19f2f.chunk.css.map",
+    "static/js/2.1a675e98.chunk.js.LICENSE.txt": "/eventuaa-cf/static/js/2.1a675e98.chunk.js.LICENSE.txt",
+    "static/media/404.697e823b.jpg": "/eventuaa-cf/static/media/404.697e823b.jpg",
+    "static/media/addtocart.6b9dd07e.svg": "/eventuaa-cf/static/media/addtocart.6b9dd07e.svg",
+    "static/media/facebook.5ed5d9d3.svg": "/eventuaa-cf/static/media/facebook.5ed5d9d3.svg",
+    "static/media/github.1c1366a1.svg": "/eventuaa-cf/static/media/github.1c1366a1.svg",
+    "static/media/home1.fb37628b.jpg": "/eventuaa-cf/static/media/home1.fb37628b.jpg",
+    "static/media/home2.2b94acd2.jpg": "/eventuaa-cf/static/media/home2.2b94acd2.jpg",
+    "static/media/home3.fb00dc1d.jpg": "/eventuaa-cf/static/media/home3.fb00dc1d.jpg",
+    "static/media/home4.cf1954ff.jpg": "/eventuaa-cf/static/media/home4.cf1954ff.jpg",
+    "static/media/linkedin.8f3ee2e4.svg": "/eventuaa-cf/static/media/linkedin.8f3ee2e4.svg",
+    "static/media/logo7.ad656481.jpg": "/eventuaa-cf/static/media/logo7.ad656481.jpg",
+    "static/media/logo8.3b670011.jpg": "/eventuaa-cf/static/media/logo8.3b670011.jpg",
+    "static/media/mockuser.81bcc1aa.svg": "/eventuaa-cf/static/media/mockuser.81bcc1aa.svg",
+    "static/media/slide1.e0cc584d.jpg": "/eventuaa-cf/static/media/slide1.e0cc584d.jpg",
+    "static/media/slide2.ca8e4404.jpg": "/eventuaa-cf/static/media/slide2.ca8e4404.jpg",
+    "static/media/slide3.c68c074c.jpg": "/eventuaa-cf/static/media/slide3.c68c074c.jpg",
+    "static/media/spinner.4d7b509b.svg": "/eventuaa-cf/static/media/spinner.4d7b509b.svg",
+    "static/media/twitter.06077747.svg": "/eventuaa-cf/static/media/twitter.06077747.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a58cc256.js",
+    "static/js/2.1a675e98.chunk.js",
+    "static/css/main.27e19f2f.chunk.css",
+    "static/js/main.2f48ff09.chunk.js"
+  ]
+}
