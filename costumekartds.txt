@@ -1,0 +1,42 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+baseurl = 'https://www.costumekart.com/'
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+}
+
+productlinks= []
+
+for x in range(1,3):
+    r= requests.get(f 'https://www.costumekart.com/5-kids?page={x}')
+    soup= BeautifulSoup(r.content,'lxml')
+    productlist = soup.find_all('div', class_='product-miniature js-product-miniature')
+    for item  in productlist:
+        for link in item.find_all('a', href=True):
+            productlinks.append(baseurl + link['href'])
+                                
+
+wlist = []
+                                
+for link in productlinks:
+    r = requests.get(link, headers= headers) 
+    soup =  BeautifulSoup(r.content, 'lxml')
+    name= soup.find('h1',class_="h1").text.strip()
+    price= soup.find('div',class_="product-price h5").text.strip()
+    image= soup.find('img',class_="js-qv-product-cover").text.strip()
+        
+        
+
+    prod= {
+    'name': name,
+    'price': price,
+    'image': image
+    }        
+    
+    wlist.append(prod)
+    print('Saving:', prod['name'])
+        
+df= pd.DataFrame(wlist)
+print(df.head(15))
